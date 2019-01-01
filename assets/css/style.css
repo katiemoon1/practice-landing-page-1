@@ -174,3 +174,79 @@ html {
     color: #76ed4b;
     font-weight: bold;
 }
+
+
+#event {
+    height: 700px;
+}
+
+#row-fix {
+    margin-left: -80px;
+}
+
+#event-bg-diagonal {
+    width: 73%;
+    height: 700px;
+    float: right;
+    background-image: url("../images/cc_event.jpg");
+    border-left: 200px solid white;
+    border-top: 700px solid transparent;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.event-content-box {
+    /* float: left; */
+    height: 700px;
+
+}
+
+.event-content-box-outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+
+}
+
+.event-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.event-content-title h3 {
+    text-align: left;
+    
+}
+
+.event-content-title-underline {
+    width: 60px;
+    height: 2px;
+    background: #76ed4b;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#event-description p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.btn {
+    border-radius: 6px !important;
+    margin-top: 20px
+}
+
+#event-button a {
+    border: 2px solid #76ed4b;
+    padding: 10px 55px;
+    color: white;
+    background: #76ed4b;
+    transition: all 0.5s ease-in;
+    font-weight: bold;
+}
+
+#event-button a:hover {
+    background: transparent;
+    color: #76ed4b;
+    font-weight: bold;
+}
